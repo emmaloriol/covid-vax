@@ -52,9 +52,51 @@ The COVID-19 US State Policy (CUSP)  (Jeffrey)
 #However some states did not have any dates recorded
 
 The Python file contains all the collaborative code for analysis we did with all the COVID data we mentioned above. 
+```````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
+Another crucial component is updating the libraries over time, yet we can observe that many modules depreciate within a month. So please pay attention to the syntaxes and the parameters being supplied to the methods. (Since Python programming language is an open source).
+
+Follow the syntax listed below to install a library and run the code:
+
+IN JUPYTER NOTEBOOK: ! PIP INSTALL <MODEULE NAME>
+IN TERMINAL : PIP INSTALL <LIBRARY NAME>
+
+For Instance,
+  if we want to install Folium library thats not by default attached in the python default libraries (IN BIN FOLDER):
+  So we need to explicitly do that using : !PIP INSTALL FOLIUM(MINIMAL INTERNET CONNECTION REQUIRED)
+  We advise you to collect the dataset from the website listed in the citations as our use of the dataset from github may result in static data visualizations; instead, try utilizing raw github to obtain real-time data (Trend in the Current times).
+  
+  
+IN ORDER TO RUN THE CODE(ONLY PYTHON TERMINAL(PROMPT) AND PYTHON PACKAGES ARE FINE TO GET THE CODE RUNNING):
+
+Step 1:
+Install all necessary libraries at once, then attempt to run each cell individually using the output of the cell before it as the input for the cell after it.
+
+Step 2:
+Make sure to examine any warning messages with the syntax(Modified) at the time you are executing the code because it might also become obsolete the next time you access the code..
+
+Step 3:
+There you go the project is about Covid -19 Deaths and Vaccines. Have an glance at the ouputs and some realtime plots and visualizations.
 
 
+Check the below links to have the correct syntaxes:
 
+  https://docs.python.org/3/installing/index.html
+  
+  https://docs.python.org/3.7/howto/cporting.html
+  
+  https://pypi.org
+  
+And for tuning in the parameters in graphs we reffered :
+(As we have mostly used seaborn and matlplot lib)
 
-
+  https://matplotlib.org/stable/tutorials/introductory/customizing.html
+  
+  https://www.w3schools.com/python/numpy/numpy_random_seaborn.asp
+  
+  https://towardsdatascience.com/seaborn-python-8563c3d0ad41
+  
+  
+  
+  
+  
 
